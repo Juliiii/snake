@@ -1,0 +1,30 @@
+body, html {
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -400px;
+  margin-top: -400px;
+  height: 800px;
+  width: 800px;
+}
+
+.cell {
+  height: 8px;
+  width: 8px;
+  display: inline-block;
+  background-color: pink;
+  font-size: 0;
+}
+
+.snake {
+  background-color: black !important;
+}
+
+.food {
+  background-color: red !important;
+}

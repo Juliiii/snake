@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="../css/index.css">
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+</head>
+<body>
+  <div id="app">
+  <div v-for = "gir in grid" class="cell" :class="{snake: gir === 2, food: gir === 1}">
+    <div v-for = "g in gir" class="cell" :class="{snake: g === 2, food: g === 1}">
+    </div>
+  </div>
+  </div>
+  <script type="text/javascript" src="../js/index.js"></script>
+</body>
+</html>
